@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 jun. 2022, 09:28:33
+    Author     : rvasq
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Hervetica;   
+}
+body
+{
+    background-image: url("../images/MenuBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    padding: 90px 20px 0px;
+}
+
+.header{
+    background-color: black;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 12vh;
+    margin-left: -300px;
+
+}
+.nav-menu{
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    margin-left: 70px;
+    line-height: 12vh;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.nav-menu-link:hover {
+    background-color: appworkspace;
+    transition: 0.5s;
+}
+.nav-menu-item-1{
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 12vh;
+    margin-left: 40px;
+}
+.nav-1{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+}
+.menu-txt{
+    color: grey;
+    margin: auto;
+    margin-top: 250px; 
+    width: 70%;
+    background-color: darkgreen;
+    border: none;
+    padding: 10px;
+}
+#piePagina{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;}

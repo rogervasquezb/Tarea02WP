@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 jun. 2022, 11:45:50
+    Author     : rvasq
+*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia;   
+    
+}
+
+.header-p{
+    background-color: black;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-p{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link-p{
+    color: white;
+    text-decoration: none;
+
+}
+.logo-p{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 12vh;
+    margin-left: -300px;
+    font-family: Helvetica;
+    color: white;
+    text-decoration: none;
+
+}
+.nav-menu-p{
+    color: white;
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+
+}
+.nav-menu-item-p{
+    font-size: 18px;
+    margin: 0 10px;
+    margin-left: 70px;
+    line-height: 12vh;
+
+}
+.nav-menu-link-p{
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+.nav-menu-link-p:hover {
+    background-color: appworkspace;
+    transition: 0.5s;
+}
+#barraLateral{
+    align-content: center;
+    margin-top: 120px;
+    padding: 10px;
+}
+#contenido{
+    margin-left: 20px;
+}
+.titulos{
+    border-color: green;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.descripcion{
+    margin-left: 12px;
+}
+#txtimg{
+    margin-left: 50px;
+}
+.imagenes{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#piePagina{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
+
+
