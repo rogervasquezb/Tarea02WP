@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 jun. 2022, 13:05:24
+    Author     : rvasq
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia;   
+    
+}
+
+.header-p{
+    background-color: black;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-p{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link-p{
+    color: white;
+    text-decoration: none;
+
+}
+.logo-p{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 12vh;
+    margin-left: -300px;
+    font-family: Helvetica;
+    color: white;
+    text-decoration: none;
+
+}
+.nav-menu-p{
+    color: white;
+    display: flex;
+    margin-left: 40px;
+    list-style: none;
+
+}
+.nav-menu-item-p{
+    font-size: 18px;
+    margin: 0 10px;
+    margin-left: 70px;
+    line-height: 12vh;
+
+}
+.nav-menu-link-p{
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+.nav-menu-link-p:hover {
+    background-color: appworkspace;
+    transition: 0.5s;
+}
+.descripcion{
+    margin-left: 12px;
+}
+#piePagina{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
+#titulo{
+    padding: 15px 15px;
+}
+#descripcion{
+    margin-top: -10px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+#video{
+    margin-left: 650px;
+    
+}
+#txtimg{
+    margin-left: 650px;
+}
+#piePagina{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background-color: bisque;
+    color: black;
+    text-align: center;
+}
