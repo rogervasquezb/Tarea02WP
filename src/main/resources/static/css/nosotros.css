@@ -12,7 +12,7 @@ and open the template in the editor.
     margin: 0;
     box-sizing: border-box;
     font-family: Georgia;   
-    
+
 }
 
 .header-p{
@@ -93,7 +93,7 @@ and open the template in the editor.
 }
 #video{
     margin-left: 650px;
-    
+
 }
 #txtimg{
     margin-left: 650px;
@@ -107,4 +107,49 @@ and open the template in the editor.
     background-color: bisque;
     color: black;
     text-align: center;
+}
+.caja{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 128px;
+    padding-left: 128px;
+    margin-top: 200px;
+}
+#todo-texto{
+    background-color: #e3e3ef;
+}
+.tituloA{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #050505;
+    font-size: 66px;
+    line-height: 125%;
+    font-weight: 400;
+}
+.tituloB{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #151515;
+    font-size: 44px;
+    line-height: 115%;
+    font-weight: 400;
+    text-align: left;
+}
+.cuerpo-texto
+{
+    margin-bottom: 18px;
+color: #050505;
+font-size: 23px;
+line-height: 26.45px;
+font-weight: 300;
+}
+.nav-1{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+    margin-left: -50px;
 }

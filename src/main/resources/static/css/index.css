@@ -97,3 +97,9 @@ body
     background-color: white;
     color: black;
     text-align: center;}
+.nav-1{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+    margin-left: -50px;
+}

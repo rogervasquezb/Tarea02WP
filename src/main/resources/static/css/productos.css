@@ -104,5 +104,10 @@ and open the template in the editor.
     color: black;
     text-align: center;
 }
-
+.nav-1{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+    margin-left: -50px;
+}
 

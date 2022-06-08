@@ -112,3 +112,9 @@ and open the template in the editor.
     width: 600px;
     margin-left: 550px;
 }
+.nav-1{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+    margin-left: -50px;
+}
